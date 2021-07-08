@@ -54,8 +54,8 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             height: 100px;
             margin-left: 30px;
             margin-right: 30px;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
             padding-top: 10px;
         }
         
@@ -67,16 +67,96 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
         h3 {
             font-size: 15px;
             margin-top: 5px;
+            color: cornsilk;
         }
         
         h1 {
-            font-size: 20px;
+            font-size: 25px;
             margin-top: 10px;
+            margin-left: 30px;
+            color: rgb(82, 116, 179);
         }
         
         h4 {
             font-size: 15px;
             margin-left: 10px;
+            color: cornsilk;
+        }
+        
+        ul {
+            font-size: 15px;
+            color: cornsilk;
+        }
+        
+        nav {
+            background-color: linear-gradient rgba(26, 16, 34, 0.72);
+            height: 7vh;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: rgb(14, 1, 1);
+        }
+        
+        .container1 {
+            background-color: rgb(14, 1, 1);
+            color: beige;
+            margin-top: 10px;
+        }
+        
+        .container1 img {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        
+        .container2 {
+            background-color: rgb(189, 126, 126);
+            color: rgb(10, 10, 10);
+            opacity: 0.9;
+        }
+        
+        .container2 img {
+            width: 200px;
+            border-radius: 100px;
+            margin-left: 20px;
+            border-color: black;
+        }
+        
+        .container3 {
+            background-color: rgb(53, 50, 50);
+            color: beige;
+            margin-top: 3px;
+        }
+        
+        .container4 {
+            background-color: rgb(245, 216, 226);
+            color: beige;
+        }
+        
+        .container4 img {
+            margin-left: 25px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -84,83 +164,200 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
 
 <body>
 
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">Album</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
 
-    <h1>My little story</h1>
+    <section id="fav-albums">
+        <div class="container1">
+            <div class="row py-5">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHIkwsnVOtcjjyP2K47YFqCrTfjfPe3QsOsQWtYY&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">Living Hope</span>
 
-    <h2>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfPa4I36qun1jIJJ6M-6H15gyxktNE_4b-sap0rc&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">Hymn of Heaven</span>
 
-        <p>I am, Woticha Rahel, originally from Ethiopia living in Poland. As a little child, I had dream to enter into a space society of the world and want to be a scientist in NASA. I am an engineer who graduated from Electronics engineer of master’s
-            degree program from SUT, even if I didn’t join NASA , Life is going well with me, and I am enjoying a programming job in Poland. I don’t think in my early age coming to Poland and reach the place where I am now, but we don’t the track that
-            life goes on. Woticha Rahel</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcjOOf5wEq_ycZ3kP30gunMULDdegW9QUp99DdWKY&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">Iserve a saviour</span>
 
-    </h2>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIId9vuYgR4g2Ly4D-gUwEoEmC8yl3UXeqN7q14nE&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">United</span>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxqVU9LEVspQaFFBNLYDQl4osEOAsA9BFhsMeNb1g&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">Said Amen</span>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfDZyNJSJl1f9moKNDXr3K-ueNwm3IlumgXXOC6-w&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">Precious Memories</span>
+
+                        <span class="album-genre"></span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQM3ULOkvko_YRHTj31aHUCHCE4q7TdqryQlNr5XQ&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">My Lord</span>
 
 
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 col-sm-6 col-md-4 col-1g-3">
-                <div class="card" style=width:300px;height:200px>
-                    <h3>number 1</h3>
-                    <ul>
-                        <li>Name:Donmoen</li>
-                        <li>Genres: Contemporary worship music, </li>
-                    </ul>
-                    <div class="albumcover">
-                        <div class="The album title">
-                            <h4>Song Title:God is good</h4>
-                            <img src="https://cdns-images.dzcdn.net/images/cover/10166dad33943b62aed47c9b6037a0d1/350x350.jpg" class="card-img-top">
-
-                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdFaoWqxGsLob8K5fEm9AxLxPcixZe160fB2Cbfs&usqp=CAE&s" class="img-fluid">
+                        <h4 class="album-title"></h4>
+                        <span class="album-artist">Lets Go Home</span>
 
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-1g-3">
-                <div class="card" style=width:300px;height:200px>
-                    <h3>number2</h3>
-                    <ul>
-                        <li>Name:lauren</li>
-                        <li>Genres:pop, </li>
-                    </ul>
-                    <div class="albumcover">
-                        <div class="The album title">
-                            <h4>song Title:look upo child</h4>
-                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVFRIRFREYERIREhIREhIRERIYGBIYGRQZGhgYGBgcIS4lHB4sHxgZJjgmLC80NTU1GiQ7QDs0Py40NTQBDAwMBgYGEAYGEDEdFh0xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBAUGB//EAEEQAAICAQMBBgMFBQYFBAMAAAECABEDBBIhMQUTIkFRYXGBkQYyU6HRFCNSo/BCkpOxweEzgqKy8RVicrMHJEP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AtGJYoQgMVjbZIBEEgCqQ+7kiJBGqx7u77xd/XbcCJ1jAS3sB6cwe5gV9sISQ4wCATyeg9ZImMGiCCD6GBEohiSFKiAgMseOBERAcCFtjLDgAwgCGYNQHhAxqj1AYmCYRgmAMVR44gIQ6gCFcBgkkBg3EDAK4JMTQRAYxiYTCAYDGCTHMGAoojGECRTGuDHgVwIarEgk4FCAKpEKEq5O0UDFCRYFnnoPX8x9ZQ7b7Yx4QtsRYuj95h60IF7tLtBMeN3voOPc+05XTa5b3bN7XuZywVVb+ytk9Jjp2gdRlTAPAmRwAOpPXxED2uWdbr2w+BAEVSQrtttzyCVBFsAeN1119rDom+0D4xRTmiwU5MYJHUkLV1V+XlKmp+1uQp3i7UUv3ajbuJbaGN36Ajy85zvecZHawXwsqg9T3qlFZiOrEEGvIfSYuXUFgmMdEbIQfVnIsn5KvHtA7X7OZ9VnbI6ePNm3Y8TO4UKAbdyTwFFjp5ggCauo1o0zJpcRvIQz6rNt2mkUEhBz4OQC3U81Oe+z3aAx4ghJVBTZytbii2SgPXlnAPPVh0qUtVrsmZ23eDJqGORyrADGhfcVB8gLPzN/AO40H2k3lQ6DaTRcAgt15A9BXzozdRkf7p56lTww9LH0+s4L7NKCz5m/4eMcKAo8CcmuObO1a4up1XZemdzjBHjy7c+oIPCgjwIPPk2f+U35QNYYzEUmg2kKirJ+PX6+chKQKdRwJZZJHtgQsIIEmZY22AIEVQwI9QIDGqTFYNQIwIqhkQDAQjExzI7gSrFBUwhARjRNFAYyNoZMAwBiiigIxoooDxRRQAQzM7e7QKJsU0zKWJ8kUdWM0hOS+05JfIgPLY1r3pt1flAx9N2iquz0WpSW3n7xHiXj4gcczD1erbIWyOxZnIsny8Vn5VULVWqgeoJb5/wC0p6dQzY1JpWYBj6AmifpA0OzNSmLLjy0SivuFkDcBwwrmvbr85UxNTeIjIeKF2OBwWscgX085p5tMmMHZjD7myUHbxIqmgevJ58vQ9OZm6N1LENwjGtwW2QkEKRVEgGvDdGBo5s37pHJt3PJu+dzt7Act/wCJU02EDwkgF+pr7q+de56ewv1hZGUlF4ZMe6ttjdbmib55AXr6xY6dm/gBDZDyN3ot+QgTd4pAYLsRAdvQ7mB++w9KPA/8ksJZE3f/ANM9gG+iBunwLH/pkGbxsqdN1M3mFTqPy5kuI95lAUUoKqo8lF0P694HUdkhdqYQAoY3kPJIx4zbE9Ktt1/Kdp9mXO1870r53bJ6bUHhxg+ngAv3Jnn/AGUC7ZdtbWKY+lgYwwDH15BVb951WJGzZF0/K4hRyUSPAP7N+/8AlcDrl7f0hoHOm4naACSb+Un1xRDjvnvH2LQvnaWs+1CYnberwKO402kTLkxKGKog24h5s7geEVc0dbqMncvitMeqVCuNnsJuqr9R7QJnSQskLs/G64sSudzrjRWNg2QovkdT7yR1gVtsTCSMsBhAiqFUcCOYFXXZSiZMgAJRGcA3R2gmvykWn1G7GrmtxxpkKrfG5bArrLWXGrAqyhlYUysAQR6EHqJCNLjAKjGgBKsQEUAla2kiuooV6UIGUe1n/Z3zbAMmN+7yYyTSsHCnnrVEMPYyzr9S+PHnyUrHEpZRRF7UDEE3LQ0uMBwMaAZCTkARf3hIoluPEfjGfT42UoUVkPBRlBU/EHrAy8XarNh1GYKt4TkCiz4tiAncvVDdj6Hzkq6rIyO6orOAhRDuXddcG+nN0ehFGW/2LFTr3SU4AcbFpwBQDCuaHrF+zYwCBjQBipYBF5KgbSfUihXwECDs/WDKC68AUChBD43Fhkf3BErartVkfImwMqHT9CQxGVynHlYI+ftNFUUFiFALnc5AALGgLY+ZoAfKANPj3F9i7zVvsXca4FnrxZgRajXbM2PGV8GQMofnhwNwX05W/pK+TtMr+1llBXShSNt29pv59PT85efS4zRKISH3glFNP/GOPve/WJdPjBdgihn/AOIQqgvxXiPn84FI9oHbqCNjHApcUHG4bC3IPrRogmxRg6jtBl05zgKXXGmQpzXiANeo+PtLK6TEqsgxoqMNrKEUKw9CK5HJgnSY9rJ3abGrcvdrtagALFUaAA+UB9NmLbrAFMQKBBqh1B6G7+Io+cmuRpjVb2qF3G22gCzVWa6mgPpCuAUUYQoCjRzBgMBOY+1Wjdv3iLuocgda9RU6gQHQHgi4Hk+qt1s1f3W/0mSykX6qZ3+v+zTl22ABGYtvJ6A9V2+c5btTR925QAEVa7hzXNHj6wINQdmVHDEK+zL4dpYBuWIFUTy1ekbXYmVwDW5grHaqqARYbgADqDz7yfDhOTGQADtSyB9+0Fg16bDX5yfPh3YC/CnFV2STdpjyDr53jb2thAzMQLEIPvOdtnjb6k/DmXsjIKxr9wdTQtjVsx/r0lbRNsVsl0z2o45CnqR8elwW5oVyx2gV1HU/p9YE7ZKV3vx5DtrzC1Zr0HT84embYjuCQaIHHmQR9auVs5tgt2q0o966n639ZayVeNPIeNh7Cjz70F+sDe+z2IgoVIrHauKayWAY7T06lf7s7/s3TKQaO0sOT5zguwM42X5klm+JN/618p0+i7RqhcDoux+wmQ5V3AJm/wCIoRbyf/JqszW7S7LUou0f8Ndo9aErdk68Vybupvd8jjr1gcDou0nVygtlB58wJ0YdGAZGuxyP4T6TIH2eyK+RS148mQsWRyrbSSdpFe/kfKbGHSJjUY0+6o455PqSfOABkTSVpCxgDcciILHMBkIBsjcPMXV/OO2XH+F/1tI2gGBKcuP8L+Y0Hvcf4X8xv0kJEFr5oWfIcc+3MCwcuP8AC/mN+kA5cf4X8xv0mV2N2quoVnTG6Kjsn7zZZZfvUFY9IOo7VRXyYlVsj4cXfZFTb4R5LyR4yOQPzEDWOXH+D/Mb9IwzY/wf5jfpMfJ21gGnGr3XhKgggeIknbtA/i3cV7Q8PaKnMdMwOPKMa5QrUQ6k1akehsEe3nA1+9x/g/zG/SCc2P8AB/mN+kxF7aU5NRhGJ9+mVS/OOnLC0VPFyWB4Br5TQRyQCVKEgEqSCV9jRIv4QLJy4vwf5j/pBObF+D/Nf9JXJgNAkzOpI2psFcjcWv35kUaK4BiFIwYYgOYMeKAMaMYlMCPOLFTlu39CXGRlQFxjJB6eXFe/F/Odaw/WZ+bHy/wB+NE/7QPKGyMrbl5PgZTx12g3/lOi0WpTFp3ykF8mpbYgtdld1tcsOppr46Hw/CZvbnZTod4W0ZVyEjom6gAfnQ+YkiMP2XELspqFB8qGQZRX8uBnZH5odB4VHtFiaiX/AIBtXmuT5/5yIEAbh06e4NdDDdaVfr/XzgTaTHuYL5sQo6efX8gefaTM5d3ZRe4lUAA4Ueny2yPQttDv0KrtXg9WsE37KG+omr9mcGZ8n7opYWnGXdtomyRtF3+kC1oMLIgHQ+cu4XNyTWWGIIoj84tORA6XsrOaE6PSaoipzXZhA85sbukDTy65lXdtZyzbQFF9b5J8h7xYlO7ezHcyhAg5Vefy8vpKyZ7G3pNHSopFk2f8oEWSVWHMtZvOViYCjGFERAieRGTsIBECKomsDgWfIE1Z+PlDgmBznYvZmrwIuO8QDal8uVlfITsYg7EBQckirPl8eJm7KyLqM+pxlWGpwhGR2K7XRQqMCAfDQ58x7zbmJ2l2hmTV6TTqU7vUBy25GLLsWzR3Ac8eXHvArZPsuP2FdEMlOlOMhHG/eW6fw8kS1j7MdtSurcqpTTjCuNGLeIkl2LEDjmgPnx0mjhOQnKC68Ptx0h8IKK3i8Xi5byrpOb7F7f1OY6W8aOuY5xlONHHdBGpXssRR5FH04gRdpfZvPly6rKHTGcjYcmBlyZNyPhG1dw2AURfmdprrOk0nebE70KMm0d53ZJUt5kWB1615e8twGgRmAYREAwGiiigOIQgCGIDiPBuPcCNogYisVQFIyvJ9xJQsYDmBj6/QArkRjWN8bIG80Nhlv2DCcDhx1p9Q3lvwOn/vZS6bav0yE/8AJ7z1oTyrVadRl1KfdOLOz41auQXsrXpSqf6MDN1mEo1EMpenXkFXUmwwI8rHlfSRPksj2of1856j2D2bh1GlVM+IOqPlTGT97GpZq2sOQQK+fwnM9s/YZ0yBdO4yK+PNlVch2sq4ygYWOGNuK6QOVd6QD+LIx/uqoH+Zm59mO0XxMNqhixqronz6njoDOfyI+1SVYKOjFSAd3I5+R+k0Ozs7IUcAErY546qRZPzgdDqdU75C7AKGCjaDYFCussYJB2bi7zGG6kFl4JIO1iLB8xxLiaRgIF/TajbLidp11mSumJ4qa3YXYi5Htx+7QbmH8R8l/r0gTY+1GY0ilz6IpP8AlNrR49QaLDux/wC4+L5KP9Zq0iLtRQigUAoAH0ErtkgE7eUCooiYD1HMbdHgA0iMkaRtAEmDUczne1e0lXV48GZ+6076Z2RixRXyltpDOCOidPdgetQOhqUdf2cmR8WW2TJgZmxum3gMKZSCCCpH+xEz/ANFmCah86pjy7c7ZCWLKpYbXWrANCx6EeswsGTIR2Pb5B3xbvD3+T97wG8Xi559fh0gdqMVBgGO5rJfw3dAAgVXAA8vKUuxuyV0yd0ju6biwGQoSpPJoqo8/WZfbzN+19nKHdVyvlDqmR1VwgVl3KDR5MLtm/23s5A7KuTv+8RcmRVfYoZNyg0eT8/OB0BgmZXb2oV9JqXRz4EybciMykOhINMpHRgR6GZHZWqyjNokV2yJn0KZM6u5YKwQVkF8gluD6wOqaRGSMZGTAExCKKA8e4McQCijxoAmIR40AoJhwSIBKZxv2x0hVzkSh3yp3lqTtphj3oR0P7xR8p2FTO7UxqzoHFq+HU46PSyMeQf/AFk/KAf2VRVx5MYG0Y8rcUf7aJkHX2evlL+vxnep9dPqsY6dX7th/wBhlLsB7ORfPu8Dk1VsQ62Pki/SaGpz0+nBVmBysrFVsKpwZPvHyF1z8IHmH2oZlx6XAorGMOFnIBG/IuJVvnrQPlx4/Xpl6Z6BscdZufbDNvzrj6DT4xiIrqwJs/MbZkabFvbYCAVKltxAG3qTZPXyA87gdr9ncXgUe3PxPJ/MzeGjHpMrsTSOgB+8p/KdRjS+IGWNLz0m92diCJ7sb+nA/wBfrKioQeOTdATR6AD0FQI3eBUZo9wHBjVGhKYDhYUQMeoEbCRsJOCAbI3D0si/pGbPj/CH+Jk/WBWMr6zS4sq7cmNMig2A6KwB9RfQzQ71PwR/ff8AWA2XH+CP7+T9YFBtNjKd0caHHQXuyi7KHQbaqpB/6XpvB/8Ar4vByn7pPBzfh48PPPHnNXvcf4I/xMn6wDmx/gj/ABMn6wKWfRYXZXfEjulbXdEZlo2KYixzHyaPE7h3xI+RRtGRkQsBzwGIsDk/WXe/T8Ef38n6xDPj/BH9/J+sDPfQ4dnc9yndDkY9ibOt/cquvMHFp8acJjVBQFIqrwBQHHoOJonNj/BH+Jk/WRtmx/gD/EyfrAqmARLZz4/wB/iZP1iOfH+AP8TJ+sCmYpLmdSfCgQV0DMb9+ZFAUdY0QgHFGigFUaoVRVAaIQ9sHbAaUO0vv4P/AJP8921K9uXBv2rzmiFmf2sQDgJ/HQf5sf8At/26QKv2aRt2RwbTJiwVze1l37lJ+DKZv6nKiI2R22qgLE/6Snp9Lj0yZNp7vGCchs/d4F8/KcV2728+oOxfBiQ2F83Pkzf6CBjavKXfJkbku7PXxJNTT+y/ZOofOMigY0LAly3O3+0gFc2OD7GRaHS2bInXdj5NlX0gdRpuzgq0Okc4al/QapHUCwYtXgJNi+AeB0MCjgx+K66c/OWMkNEofOBkgVWjiJhGJgPUICCIYgEojtFFABpV1ucY0yZCCQiM5AqyFFmr85beZuLUpm71DjO1MjYsgcIQxABNAE2KI6+sCHVdqKgRmRqyMyr06g8dT5+X+kf/ANQQucdGxkbFdcb1xrkI+G1uvtI01Wny92pQMHTI+I5EUqyKdr11riuDVgxafWYXZNqU2TGcmNiqjvEBCmj8NvWuCPegfR9pJkbYAysFYsGFbSr7Cp975+BHqIv2y3fH3bWihy1rVEuFPW+Sh+okfZ2rxZCHTGVYB1JIxhkAcrTUxNEoa9dnwkubNjXKiHGTkzo/jASiqckMSb/tdK84FfF2qjI2QI21UwvRqyMgBWvr/wCZfRwU31Q5NGvIkfnX5zN1OpwYlTdgIXIhO1UxcDGhcK3irgDirEutmxrjD1WMhXA20SWYEcH+0WI+ZgRJ2irDCwBrNuq6GwqpLBueo2kceYgNr13vi2ncilr8NGlVqHPWm/KR6rJiTHkyPpyExM5ZdmO23fedfFRBvnmzzGXVYy2dxjO/CAcjVjtrQNSkNz4QOtdIDtrgMff7G2d2mShRbawvp7DkyXT6hXDFeiuyX615j2lUavGEwVjOzOVGNQuPw2tjcN1Abb6XC1Gqx4iF2G3GTJ+7VOdi218jmqgXIoGHKrqrqbV1DKfUEWIdwFEIohAIR9sYR4E0aPUQEBLGMIQWMB1mb23o2yIqr94ZA4IIG0hGAPPuZpIY9QON+2XaTVj0180r5dvQnyX4ef0nM4RUs9s5d+fI3q7V8AaH5ASqkDY0mUCrmompVhVzmQ5hpqCIHa9n6h1IG7j0udh2drCQNxJ9+tfrPO+ytT6zruydXyIHSZgCOKN0bHtKWXiXHArcvzlbUrxAz2fmPAZeY4gEpkokYEkDQDEUHdFugJ5nYez0RmcM/iyPlYFhRZlCkkAeg4E0GMicwKWn7OxoUKg/u1yJjBNhFdgzAfQdfIVI8HZ2NChUH92jJjs33as24gfQdfQS4xjAwM3Sdk48TB0LBgHU2w8QZy5DCuaYkj0v0lrLplZkc2HTdsZasBhTDkUQaH0kzQLgQ59EjtjYkg4iSgBFcrtN2OeOIepwK6NjcWjiiLr6HyMk3QbgUsnZyHG+Fnd1yCnZ3LMR6Weg+EYaFR3p3NecAZDa+SbbHHHEuwSIFE9nptxLuYDBXd8ixS7RfHNAxsnZ6Nstn/doyKd3JDLtYk1ZJHnLhgmAONAqhVFKoCqB5ACgIUa48BRCIRwIDx4IjwLEYmHUaoAXFUIiMYCCxZDtVm/hUn6CIzift/rMg7vHuIxspYgdGN1z61x9YHNNktmP9cx0Mxe9IPB+UsJrD5jj1EDVBhSimrX1kiakH5QNrQ5aInXdlZ+k4TSZrphyDZv4Gpu6btjEn3n544AJ6mhfpyDA9J0OotavrJ9Sax76sJe6uoA6mvOhz8pxWL7XYEoKC5ujyBQrrOh7B+0+mzLQcYy39lyBX/N0gGMiNyrBuh8LA9eka5z+fH+y6llB/due8x10KE+Jb9jx8Ns3/QjoQCIBBo9xogYBgx4Ij3ATmRsYTGA0CJjGuIxoCMEwozQGEcxrjboCgkxy0EmADGCTHJgGA4jwSI4gEI4jAxwYDx6jXHuBbDQTFFAeAYooDEzgP/yODeBq4K5Fv3BU1+caKBwvpHBiigEWq/hBLk/OhFFAmw5mUEA9RXX3h/tLAOPUfQbrFfW4ooE6Kqmw5BKgkH1Isf6TS0efYvhO4gcL0v8ArmKKBs6DOzIpPBs8eQs88e4ncdhakPi234sZ2/L+z+nyiigXiKjgxooEgj1FFAFpGYooELRXFFAa4xiigMIxiigAYBiigM0CKKA5MQiigFHiigOIUUUD/9k="
-                                style=height:200px class="card-img-top">
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-1g-3">
-                <div class="card" style=width:300px;height:200px>
-                    <h3>number 3</h3>
-                    <ul>
-                        <li>liliy tilahun</li>
-                        <li>Genres: hiphop </li>
-                    </ul>
-                    <div class="albumcover">
-                        <div class="The album title">
-                            <h4> song Title:love</h4>
-                            <img src="data:image/jpeg;base64,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"
-                                class="card-img-top">
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
         </div>
-    </div>
+    </section>
+    <section id="best-album-ever">
+        <div class="container2 py-5">
+            <div class="row">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Look_Up_Child_%28Official_Album_Cover%29_by_Lauren_Daigle.png" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="d-flex flex-column justify-content-center h-100">
+
+                    <h5>One of my favorite Album</h5>
+                    <div>
+
+                        Lauren Daigle is a contemporary Christian music singer and songwriter from Louisiana. She first garnered attention with her debut studio album ‘How Can It Be’ which peaked at #1 on Billboard Top Christian Albums chart and spawned the hit singles "Trust
+                        in You", "First" and "O'Lord". She earned further success with her future album ‘Look Up Child’ which charted at #1 on Top Christian Albums
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
-</body>
-<footer></footer>
 
-</html>
+
+    <section id="hall-of-shame">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-md-4">
+                    <div class="album-container">
+                        <img src="https://i.insider.com/5b6df8bd8905f2151d8b4602?width=700&format=jpeg&auto=webp" class="img-fluid">
+                        <h4 class="album-title">Terrible Album #1</h4>
+                        <span>He's only a middling guitar player, but insists on soloing and showboating endlessly, drawing out songs to unnecessary lengths..</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="album-container">
+                        <img src="https://i.insider.com/5b6df6d68ea82fcc3a8b4972?width=700&format=jpeg&auto=webp" class="img-fluid">
+                        <h4 class="album-title">Terrible Album #1</h4>
+                        <span>"Betrays Audio Bullys' aspirations to say Something Important, undeterred by the absence of either insight or eloquence." — The Guardian</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="album-container">
+                        <img src="https://i.insider.com/5b6df7e9dcee3019008b51dd?width=700&format=jpeg&auto=webp" class="img-fluid">
+                        <h4 class="album-title">Terrible Album #1</h4>
+                        <span>The audacity, the immaturity contained on 'Imperial Blaze' is enough to hang a dark cloud over music</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="favorite band">
+        <div class="container3 py-5">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStim5KKFULab0R7g2i4jWOyL5Bnk0X9q1w7nJbAND_cLUlhSj01-wu9xVSVm2yemKnnf4&usqp=CAU" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="d-flex flex-column justify-content-center h-100">
+                        <h4>HillSong</h4>
+                        <div>
+                            Hillsong United is a worship band that originated as a part of Hillsong Church. Formed in 1998 as part of Hillsong's youth ministry, the band consists of several rotating worship leaders from the church, ... Wikipedia Origin: Sydney (1998) Albums: Wonder,
+                            People, Zion, MORE Record labels: Hillsong, Capitol Christian Music Group, Sparrow Records Genre: Contemporary worship music, Contemporary Christian music, Christian rock, Pop rock.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tapestry">
+
+        <div class="container4">
+            <div class="row py-5">
+                <div class="col-12">
+                    <h1 class="text-center">The Tapestry Thing.</h1>
+                </div>
+
+
+
+                <div class="col-12 album-tapestry">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCX2Ex9X_c31-WUUtw7yAqIqLCR85suGfuuQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLXUDmas1K9uIcUWLy_BSE-aN4TUBSzZpqQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA11ToF9_XBbzgOvMnk0E_n2BvbMoZhl7Uog&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPh8JB_nGEV6GEQ0NnwIYXnKaYp42gbx9YQ&usqp=CAU" class="img-fluid squared">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDzjVs-w_6x4pZQwQ772fO7Swgaynei62PQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCX2Ex9X_c31-WUUtw7yAqIqLCR85suGfuuQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLXUDmas1K9uIcUWLy_BSE-aN4TUBSzZpqQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA11ToF9_XBbzgOvMnk0E_n2BvbMoZhl7Uog&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPh8JB_nGEV6GEQ0NnwIYXnKaYp42gbx9YQ&usqp=CAU" class="img-fluid squared">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDzjVs-w_6x4pZQwQ772fO7Swgaynei62PQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCX2Ex9X_c31-WUUtw7yAqIqLCR85suGfuuQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLXUDmas1K9uIcUWLy_BSE-aN4TUBSzZpqQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA11ToF9_XBbzgOvMnk0E_n2BvbMoZhl7Uog&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPh8JB_nGEV6GEQ0NnwIYXnKaYp42gbx9YQ&usqp=CAU" class="img-fluid squared">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDzjVs-w_6x4pZQwQ772fO7Swgaynei62PQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCX2Ex9X_c31-WUUtw7yAqIqLCR85suGfuuQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLXUDmas1K9uIcUWLy_BSE-aN4TUBSzZpqQ&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA11ToF9_XBbzgOvMnk0E_n2BvbMoZhl7Uog&usqp=CAU" class="img-fluid squared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPh8JB_nGEV6GEQ0NnwIYXnKaYp42gbx9YQ&usqp=CAU" class="img-fluid squared">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDzjVs-w_6x4pZQwQ772fO7Swgaynei62PQ&usqp=CAU" class="img-fluid squared">
+
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </section>
